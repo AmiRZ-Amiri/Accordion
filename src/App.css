@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lalezar-Regular;
+}
+
+.App{
+    height: 100vh; 
+    padding: 5em;
+    
+}
+.Titel-App{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+}
+.icon{
+    margin-bottom: 0.5rem;
+    padding-top: 10px ;
+    padding: 0.6rem 1rem;
+    border-radius: 5rem;
+    background-image: linear-gradient(rgba(236, 236, 232, 0.5) , rgba(241, 208, 208, 0.5));
+    color: rgb(151, 151, 231);
+}
